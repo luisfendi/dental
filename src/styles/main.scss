@@ -1,0 +1,21 @@
+@import './vars.scss';
+
+.bg {
+  @include fontTitle;
+}
+
+.wrapper {
+  padding: 2% 3%;
+}
+
+@media (min-width: $laptop) {
+  .wrapper {
+    padding: 2% 16%;
+  }
+}
+
+@media (min-width: $desktop) {
+  .wrapper {
+    padding: 1% 20%;
+  }
+}

@@ -1,0 +1,32 @@
+$green: #239680;
+$black: #313e3c;
+$pink: #ef6c9a;
+
+$laptop: 720px;
+$desktop: 1024px;
+
+@mixin gradientGreen {
+  background: linear-gradient(
+    180deg,
+    #56b6a4 0%,
+    #208973 100%
+  );
+}
+
+@mixin fontTitle {
+  font-family: 'IBM Plex Serif';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+
+@mixin fontText {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #3f514e;
+}
