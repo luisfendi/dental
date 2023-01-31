@@ -1,3 +1,35 @@
 {
-  "extends": "next/core-web-vitals"
+  "env": { "browser": true, "es2021": true },
+  "extends": [
+    "next/core-web-vitals",
+    "prettier",
+    "eslint:recommended"
+  ],
+  "plugins": ["prettier"],
+  "settings": {
+    "import/resolver": {
+      "typescript": {}
+    }
+  },
+  "rules": {
+    // "prettier/prettier": 2,
+    "no-var": "error",
+    "array-bracket-newline": "error",
+    "arrow-body-style": ["error", "as-needed"],
+    "camelcase": "error",
+    "array-callback-return": [
+      "error",
+      { "allowImplicit": true }
+    ],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": true,
+        // prettier-ignore
+        "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+      }
+    ]
+  }
 }
