@@ -27,7 +27,6 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.2",
     "@commitlint/config-conventional": "^17.4.2",
-    "@ibm/plex": "^6.1.1",
     "@reduxjs/toolkit": "^1.9.1",
     "@types/styled-components": "^5.1.26",
     "eslint-config-prettier": "^8.6.0",

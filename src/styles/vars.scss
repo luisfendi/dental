@@ -13,8 +13,16 @@ $desktop: 1024px;
   );
 }
 
+@mixin gradientPink {
+  background: linear-gradient(
+    180deg,
+    #ef6c9a 0%,
+    #d8326a 100%
+  );
+}
+
 @mixin fontTitle {
-  font-family: 'IBM Plex Serif';
+  font-family: 'IBM Plex Serif', serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
