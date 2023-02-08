@@ -19,6 +19,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/components/Drawer.jsx",
+    "src/components/Header.jsx",
+    "src/store/drawerSlice.ts"
+  ],
   "exclude": ["node_modules"]
 }

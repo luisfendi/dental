@@ -1,0 +1,30 @@
+{
+  "stylelint.autoFixOnSave": true,
+  "stylelint.useLocal": true,
+  "editor.bracketPairColorization.enabled": true,
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, .stylelintrc, .stylelintignore, .eslintrc, .eslintignore, .prettierrc, .prettierignore, .prettierrc.json, .eslintrc.json, tsconfig.json"
+  },
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": false,
+  "todohighlight.keywords": [
+    "DEBUG:",
+    "REVIEW:",
+    {
+      "text": "NOTE:",
+      "color": "#ff0000",
+      "backgroundColor": "LightPink",
+      "overviewRulerColor": "grey",
+      "isWholeLine": true
+    },
+    {
+      "text": "TODO:",
+      "color": "red",
+      "borderRadius": "2px",
+      "backgroundColor": "PaleGreen ",
+      "isWholeLine": true
+    }
+  ]
+}
